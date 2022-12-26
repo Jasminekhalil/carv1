@@ -13,8 +13,6 @@ I built it using 2 <b>TT motors</b>, an <b>L298N motor driver</b> module for <b>
 
 <p><img height=300 align="left" src="visuals/carv11.jpg"><img height=300 align="right" src="visuals/carv12.jpg"/></p>
 
-### - 
-
 ### Pulse Width Modulation
 
 <p><img height=350 align="center" src="visuals/PWM.jpg"/></p>
