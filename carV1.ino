@@ -37,12 +37,15 @@ void loop() {
   digitalWrite(in4,LOW);
   delay(2000);
 
+
+
+
   // Motor A spinning Anti-clockwise at Max Speed
   digitalWrite(in1,LOW);
   digitalWrite(in2,HIGH);
   analogWrite(ena, 255);
 
-  // Motor b spinning Anti-clockwise at Max Speed
+  // Motor B spinning Anti-clockwise at Max Speed
   digitalWrite(in3,LOW);
   digitalWrite(in4,HIGH);
   analogWrite(enb, 255);
@@ -55,6 +58,8 @@ void loop() {
   digitalWrite(in3,LOW);
   digitalWrite(in4,LOW);
   delay(2000);
+
+
 
 
   // Motor A spinning Clockwise at Half Speed
@@ -74,6 +79,9 @@ void loop() {
   digitalWrite(in3,LOW);
   digitalWrite(in4,LOW);
   delay(2000);
+
+
+  
 
   // Motor A spinning Anti-clockwise at Half Speed
   digitalWrite(in1,LOW);
